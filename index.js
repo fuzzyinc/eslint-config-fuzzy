@@ -18,12 +18,15 @@ module.exports = {
     "classes": true
   },
   "rules": {
-     "comma-dangle": [1, "always-multiline"],
-     "no-underscore-dangle": 0,
-     "max-len": [1, 180, 4],
-     "arrow-body-style": [0],
-     "react/jsx-no-bind": [0],
-     "import/no-unresolved": [0],
-     "semi": [2, "never"]
+    "no-else-return": 0,
+    "comma-dangle": [1, "always-multiline"],
+    "no-underscore-dangle": 0,
+    "max-len": [1, 180, 4],
+    "arrow-body-style": [0],
+    "import/no-unresolved": [0],
+    "semi": [2, "never"],
+    "react/jsx-no-bind": [0],
+    "react/prefer-stateless-function": 0,
+    "react/jsx-closing-bracket-location": [2, {selfClosing: "after-props"}]
   }
 }
