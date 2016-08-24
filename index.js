@@ -24,6 +24,7 @@ module.exports = {
     "max-len": [1, 180, 4],
     "no-else-return": 0,
     "no-use-before-define": 0,
+    "no-multiple-empty-lines": [2, { "max": 1, "maxBOF": 0, "maxEOF": 1 }],
     "no-underscore-dangle": 0,
     "react/jsx-closing-bracket-location": [2, {selfClosing: "after-props"}],
     "react/jsx-no-bind": [0],
