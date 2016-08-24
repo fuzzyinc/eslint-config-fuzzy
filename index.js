@@ -18,16 +18,16 @@ module.exports = {
     "classes": true
   },
   "rules": {
+    "arrow-body-style": [0],
+    "comma-dangle": [1, "always-multiline"],
+    "import/no-unresolved": [0],
+    "max-len": [1, 180, 4],
     "no-else-return": 0,
     "no-use-before-define": 0,
-    "comma-dangle": [1, "always-multiline"],
     "no-underscore-dangle": 0,
-    "max-len": [1, 180, 4],
-    "arrow-body-style": [0],
-    "import/no-unresolved": [0],
-    "semi": [2, "never"],
+    "react/jsx-closing-bracket-location": [2, {selfClosing: "after-props"}],
     "react/jsx-no-bind": [0],
     "react/prefer-stateless-function": 0,
-    "react/jsx-closing-bracket-location": [2, {selfClosing: "after-props"}]
+    "semi": [2, "never"]
   }
 }
