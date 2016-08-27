@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fuzzy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fuzzy's eslint config",
   "main": "index.js",
   "scripts": {
