@@ -26,6 +26,7 @@ module.exports = {
     "import/no-unresolved": [0],
     "max-len": [1, 180, 4],
     "new-cap": [0],
+    "newline-per-chained-call": [0],
     "no-else-return": 0,
     "no-use-before-define": 0,
     "no-multiple-empty-lines": [2, { "max": 1, "maxBOF": 0, "maxEOF": 1 }],
