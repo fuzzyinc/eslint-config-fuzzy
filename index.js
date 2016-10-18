@@ -34,6 +34,7 @@ module.exports = {
     "react/jsx-closing-bracket-location": [2, {selfClosing: "after-props"}],
     "react/jsx-no-bind": [0],
     "react/prefer-stateless-function": 0,
+    "react/sort-comp": 0,
     "semi": [2, "never"]
   }
 }
